@@ -35,11 +35,12 @@ footer, header, hgroup, menu, nav, section {
 /* END RESET */
 
 header h1 {
+	margin-top: 50px;
 	color: black;
 	font-family: helvetica;
 	font-size: 48px;
 	letter-spacing: 5px;
-	font-style: thin;
+	font-style: bold;
 	text-align: center;
 }
 
