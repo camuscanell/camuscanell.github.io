@@ -35,15 +35,18 @@ footer, header, hgroup, menu, nav, section {
 header h1 {
 	font-color: black;
 	font-family: helvetica;
-	font-size: 200px;
+	font-size: 125px;
 	letter-spacing: 5px;
+	font-style: bold;
 }
 
 header h3 {
 	font-color: red;
 	font-family: helvetica;
-	font-size: 72px;
+	font-size: 50px;
 	letter-spacing: 2px;
+	font-style: bold;
+	font-variant: small-caps;
 }
 
 /* END RESET */
