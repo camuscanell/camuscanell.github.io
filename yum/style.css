@@ -37,9 +37,9 @@ footer, header, hgroup, menu, nav, section {
 header h1 {
 	color: black;
 	font-family: helvetica;
-	font-size: 125px;
+	font-size: 100px;
 	letter-spacing: 5px;
-	font-style: bold;
+	font-style: black;
 }
 
 header h3 {
