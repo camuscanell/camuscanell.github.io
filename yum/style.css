@@ -32,8 +32,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+/* END RESET */
+
 header h1 {
-	font-color: black;
+	color: black;
 	font-family: helvetica;
 	font-size: 125px;
 	letter-spacing: 5px;
@@ -41,14 +43,10 @@ header h1 {
 }
 
 header h3 {
-	font-color: red;
+	color: red;
 	font-family: helvetica;
 	font-size: 50px;
 	letter-spacing: 2px;
 	font-style: bold;
 	font-variant: small-caps;
 }
-
-/* END RESET */
-
-
