@@ -35,7 +35,8 @@ footer, header, hgroup, menu, nav, section {
 /* END RESET */
 
 header h1 {
-	padding-top: 100px 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	color: black;
 	font-family: helvetica;
 	font-size: 48px;
