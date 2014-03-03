@@ -55,9 +55,3 @@ header h3 {
 	font-variant: small-caps;
 	text-align: center;
 }
-
-img#pastapic { 
-    max-width: 2238.5px; 
-    max-height: 1491px; 
-    z-index: -999999;
-}
