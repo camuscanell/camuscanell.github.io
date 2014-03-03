@@ -45,13 +45,118 @@ header h1 {
 	text-align: center;
 }
 
+h2 {
+	padding-top: 40px;
+	color: eeeeee;
+	font-style: italic;
+	font-size: 14px;
+	text-align: center;
+}
+
 header h3 {
 	padding-bottom: 50px;
 	color: red;
 	font-family: georgia;
-	font-size: 14px;
+	font-size: 24px;
 	letter-spacing: 2px;
 	font-style: normal;
 	font-variant: small-caps;
 	text-align: center;
+}
+
+h5 {
+	padding-bottom: 50px;
+	color: black;
+	font-family: helvetica;
+	font-size: 24px;
+	letter-spacing: 5px;
+	font-style: bold;
+	text-align: center;
+}
+
+section1 h4 {
+	color: red;
+	font-family: georgia;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+section2 h4 {
+	color: red;
+	font-family: georgia;
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-style: bold;
+	font-variant: small-caps;
+}
+
+section1 li {
+	margin-left: 1.5em;
+	margin-top: 1.5em;
+    margin-bottom: 2em;
+	list-style: none;
+	list-style-position:inside;
+	color: black;
+	font-family: helvetica;
+	font-size: 14px;
+	line-height: 1;
+}
+
+section2 li {
+	margin-top: 0em;
+    margin-bottom: 2em;
+	list-style: decimal;
+	color: eeeeee;
+	font-family: helvetica;
+	font-size: 21px;
+	line-height: 1.5;
+}
+section2 li span{
+	margin-top: 0em;
+    margin-bottom: 2em;
+	list-style: decimal;
+	color: black;
+	font-family: helvetica;
+	font-size: 21px;
+	line-height: 1.5;
+}
+
+section1 {
+	background-color: #eeeeee;
+	float: left;
+	width: 25%;
+	padding: 5%;
+}
+
+section2 {
+	float: left;
+	width: 35%;
+	padding-top: 5%;
+	padding-left: 10%;
+}
+
+footer {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: red;
+}
+.footertext{
+	margin: 0 auto;
+	width: 100%;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 50px;
+	font-family: georgia;
+	font-size: 24px;
+	letter-spacing: 4px;
+	font-style: bold;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+#pastapic {
+	width:100%;
 }
