@@ -62,5 +62,6 @@ img#pastapic {
     width: 100%; 
     height: 100%; 
     max-width: 2238.5px; 
-    max-height: 1491px;
+    max-height: 1491px; 
+    z-index: -9;
 }
