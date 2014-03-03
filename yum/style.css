@@ -56,12 +56,8 @@ header h3 {
 	text-align: center;
 }
 
-img#pastapic {
-	position: fixed;
-	display: block; 
-    width: 100%; 
-    height: 100%; 
+img#pastapic { 
     max-width: 2238.5px; 
     max-height: 1491px; 
-    z-index: -9;
+    z-index: -999999;
 }
