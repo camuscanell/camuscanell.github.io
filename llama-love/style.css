@@ -72,8 +72,15 @@ p {
 	font-size: 14px;
 }
 
-article {
-	float: left;
-	width: 40%
+#section1{
+    float: left;
+	width:430px;
 	padding: 10px;
 }
+
+#section2{
+    float: right;
+	width:430px;
+	padding: 10px;
+}
+
