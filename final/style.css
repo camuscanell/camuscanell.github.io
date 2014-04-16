@@ -49,6 +49,9 @@ table {
 
 /* END OF RESET */
 
+body {
+	height: 100%;
+}
 
 /* TYPE */
 
@@ -76,16 +79,26 @@ h2 {
 	text-rendering: optimizeLegibility;
 }
 
-#nav li {
+#aboutsec h2 {
+	float: left;
+	width: 50%;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: .5em;
+	font-size: 1.5em;
+	text-decoration: normal;
 	color: white;
-	margin-right: 1em;
-    font-size: .75em;
-    text-decoration: none;
+}
+
+#followsec h2 {
+	font-size: 1em;
+	padding-top: 2em;
+	padding-bottom: 0;
 }
 
 #about h2 {
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 h3 {
@@ -102,36 +115,18 @@ h3 {
 	text-align: center;
 }
 
+#followsec h3 {
+	padding: 1em;
+}
+
 #aboutsec h3 {
 	float: left;
 	width: 50%;
-	padding-left: 2em;
+	padding-left: 3em;
 	padding-right: 2em;
 	padding-bottom: 2em;
-	color: #cf0000;
-	font-size: 1.5em;
-	text-decoration: normal;
-}
-
-#aboutsec p {
-	float: left;
-	width: 50%;
-	font-size: 1.5em;
-	line-height: 1.5em;
-	padding-left: 2em;
-	padding-right: 2em;
-	text-decoration: normal;
-}
-
-#aboutsec h2 {
-	float: left;
-	width: 50%;
-	padding-left: 2em;
-	padding-right: 2em;
-	padding-bottom: 1em;
-	font-size: 1.5em;
-	text-decoration: normal;
-	color: black;
+	color: white;
+	font-size: 1em;
 }
 
 h4 {
@@ -147,7 +142,7 @@ h4 {
 
 li {
 	float: left;
-	color: white;
+	color: black;
 	font-size: 1em;
 	font-family: helvetica;
 	font-weight: bold;
@@ -157,22 +152,44 @@ li {
 	list-style: none;
 }
 
-a:link {color:white;}      /* unvisited link */
+#nav li {
+	color: white;
+	margin: .5em;
+    font-size: .75em;
+    text-decoration: none;
+}
+
+#aboutsec p {
+	float: left;
+	width: 50%;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-decoration: normal;
+	color: white;
+}
+
+a:link {color:white; list-style: none;}      /* unvisited link */
 a:visited {color:white; list-style: none;}  /* visited link */
 a:hover {color:#cf0000;}  /* mouse over link */
 a:active {color:white; list-style: none;}  /* selected link */
 
-#followsec a:link {color:black;}      /* unvisited link */
+#followsec a:link {color:black; list-style: none;}      /* unvisited link */
 #followsec a:visited {color:black; list-style: none;}  /* visited link */
 #followsec a:hover {color:#cf0000;}  /* mouse over link */
 #followsec a:active {color:black; list-style: none;}  /* selected link */
 
-#backtotop a:link {color:#cf0000;}      /* unvisited link */
+#backtotop a:link {color:#cf0000; list-style: none;}      /* unvisited link */
 #backtotop a:visited {color:#cf0000; list-style: none;}  /* visited link */
 #backtotop a:hover {color:#cf0000;}  /* mouse over link */
 #backtotop a:active {color:#cf0000; list-style: none;}  /* selected link */
 
 /* DIVs */
+
+#topdiv {
+	background-color: #cf0000;
+}
 
 #nav {
 	position: fixed;
@@ -182,7 +199,7 @@ a:active {color:white; list-style: none;}  /* selected link */
 }
 
 #namecard {
-	background: white;
+	background-color: white;
 	border-style: solid;
 	border-width: .25em;
 	border-color: black;
@@ -194,7 +211,7 @@ a:active {color:white; list-style: none;}  /* selected link */
 }
 
 #contacttag {
-	background: #cf0000;
+	background-color: black;
 	width: 400px;
 	padding: 1em;
 	margin-left: auto;
@@ -209,42 +226,57 @@ a:active {color:white; list-style: none;}  /* selected link */
 #design {
 	float: left;
 	width: 100%;
-	margin: auto 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 3em;
-	background-color: #b2b2b2;
 	text-align: center;
+	background-color: #b2b2b2;
 }
 
 #designsec {
 	float: left;
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #b2b2b2;
+}
+
+#projectbox {
+	width: 30.33%;
+	float: left;
+	margin-bottom: 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+	background-color: white;
+	text-align: center;
 }
 
 #follow {
 	float: left;
 	width: 100%;
-	margin: auto 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 3em;
-	background-color: white;
 	text-align: center;
+	background-color: white;
 }
 
 #about {
 	float: left;
 	width: 100%;
-	margin: auto 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 3em;
-	background-color: #b2b2b2;
 	text-align: center;
+	background-color: #cf0000;
 }
 
 #aboutsec {
 	float: left;
-	background-color: #b2b2b2;
+	background-color: #cf0000;
 	padding: 2em;
 	margin: auto 0
 }
@@ -252,38 +284,43 @@ a:active {color:white; list-style: none;}  /* selected link */
 #contact {
 	float: left;
 	width: 100%;
-	margin: auto 0;
+    margin-left: auto;
+	margin-right: auto;
 	padding-top: 3em;
 	padding-bottom: 3em;
+	text-align: center;
 	background-color: white;
 }
 
 #followsec {
 	width: 100%;
-	margin: auto 0
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #mediabox {
-	width: 33%;
+	width: 33.33%;
 	float: left;
-	margin-top: 3em;
-	margin-bottom: 3em;
-
+	padding-bottom: 3em;
+	text-align: center;
 }
 
 #backtotop {
 	float: left;
 	width: 100%;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 3em;
 	margin-bottom: 3em;
 }
 
-#backtotop {
-	padding: 2em;
-}
-
 /* IMAGES */
+
+#nav img {
+	float: left;
+	margin-right: 1em;
+}
 
 #topdiv img {
     display: block;
@@ -304,3 +341,17 @@ a:active {color:white; list-style: none;}  /* selected link */
 	padding: 1em;
 	text-align: center;
 }
+
+/* HTML CLASSES */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.invert {
+	-webkit-filter: invert(100%);
+}
+
+
