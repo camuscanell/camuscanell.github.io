@@ -185,6 +185,11 @@ a:active {color:white; list-style: none;}  /* selected link */
 #backtotop a:hover {color:#cf0000;}  /* mouse over link */
 #backtotop a:active {color:#cf0000; list-style: none;}  /* selected link */
 
+#projectpg a:link {color:#000000; list-style: none;}      /* unvisited link */
+#projectpg a:visited {color:#black; list-style: none;}  /* visited link */
+#projectpg a:hover {color:#red;}  /* mouse over link */
+#projectpg a:active {color:#black; list-style: none;}  /* selected link */
+
 /* DIVs */
 
 #topdiv {
