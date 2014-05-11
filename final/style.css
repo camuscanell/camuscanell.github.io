@@ -343,6 +343,12 @@ a:active {color:white; list-style: none;}  /* selected link */
 	text-align: center;
 }
 
+#projectpg img {
+	padding: none;
+	margin: none;
+	width: 600px;
+}
+
 /* HTML CLASSES */
 
 .clearfix:after {
